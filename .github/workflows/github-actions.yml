@@ -2,6 +2,6 @@ name: GitHub Actions
 on: [push]
 jobs:
   Explore-GitHub-Actions:
-    runs-on: macos-11
+    runs-on: macos-latest
     steps:
       - run: make lint
