@@ -4,4 +4,4 @@ jobs:
   Explore-GitHub-Actions:
     runs-on: macos-latest
     steps:
-      - run: poetry run flake8 brain_games
+      - run: make lint
