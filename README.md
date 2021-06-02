@@ -6,3 +6,6 @@
 
 ### GitHub Actions
 ![Github Actions](https://github.com/Egorga39/python-project-lvl1/actions/workflows/github-actions.yml/badge.svg)
+
+### Asciinema
+https://asciinema.org/a/jOVZYZuYeC6gLFYOzhskksgMm
