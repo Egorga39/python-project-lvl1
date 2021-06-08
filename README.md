@@ -8,4 +8,5 @@
 ![Github Actions](https://github.com/Egorga39/python-project-lvl1/actions/workflows/github-actions.yml/badge.svg)
 
 ### Asciinema
-https://asciinema.org/a/jOVZYZuYeC6gLFYOzhskksgMm
+https://asciinema.org/a/46NHkVDFBFz9Y3EbHeq6HdAd0
+
