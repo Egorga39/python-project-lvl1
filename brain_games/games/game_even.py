@@ -25,10 +25,13 @@ def check_even():
         right_answer = test_even(number)
         answer = input()
         n += check_answer(answer, right_answer, name)
-        if n == 3: return print('Congratulations, {}!'.format(name))
+        if n == 3:
+            return print('Congratulations, {}!'.format(name))
+
 
 def main():
     check_even()
+
 
 if __name__ == '__main__':
     main()

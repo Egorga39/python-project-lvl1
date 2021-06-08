@@ -15,7 +15,7 @@ def welcome_user():
 def calc(num_1, num_2):
     ops = {'+': operator.add, '-': operator.sub, '*': operator.mul}
     arithmetic = ['+', '-', '*']
-    calculation  = random.choice(arithmetic)
+    calculation = random.choice(arithmetic)
     right_answer = ops[calculation](num_1, num_2)
     print('Question: {} {} {}'.format(num_1, calculation, num_2))
     return right_answer
@@ -30,7 +30,7 @@ def check_answer(answer, right_answer, name):
               'Correct answer was "{}".'.format(right_answer),
               'Let\'s try again, {}!'.format(name))
         return 5
-    
+
 
 def check_calc():
     name = welcome_user()
@@ -49,5 +49,6 @@ def check_calc():
 def main():
     check_calc()
 
+
 if __name__ == '__main__':
-    main()  
+    main()
