@@ -6,7 +6,7 @@ import prompt
 
 
 def welcome_user():
-    print('Welcome to the Brain Games!')
+    print('Welcome to the Brain games!')
     name = prompt.string('May I have your name? ')
     print('Hello, ' + name + '!')
     return name
@@ -21,6 +21,17 @@ def calc(num_1, num_2):
     return right_answer
 
 
+def check_answer(answer, right_answer, name):
+    if answer == right_answer:
+        print('Correct!')
+        return 1
+    else:
+        print('"{}" is wrong answer ;(.'.format(answer),
+              'Correct answer was "{}".'.format(right_answer),
+              'Let\'s try again, {}!'.format(name))
+        return 5
+    
+
 def check_calc():
     name = welcome_user()
     print('What is the result of the expression?')
@@ -28,17 +39,15 @@ def check_calc():
     while n < 3:
         num_1 = random.randrange(100)
         num_2 = random.randrange(100)
-        right_answer = calc(num_1, num_2)
-        answer = input()
-        if int(answer) == int(right_answer):
-            print('Correct!')
-            n += 1
-        else:
-            return print('"{}" is wrong answer ;(.'.format(answer),
-                         'Correct answer was "{}".'.format(right_answer),
-                         'Let\'s try again, {}!'.format(name))
-    print('Congratulations, {}!'.format(name))
+        right_answer = int(calc(num_1, num_2))
+        answer = int(input())
+        n += check_answer(answer, right_answer, name)
+        if n == 3:
+            return print('Congratulations, {}!'.format(name))
 
 
-check_calc()
+def main():
+    check_calc()
 
+if __name__ == '__main__':
+    main()  
