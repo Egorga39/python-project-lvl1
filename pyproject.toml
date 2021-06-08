@@ -8,6 +8,7 @@ packages = [{ include = "brain_games" },]
 [tool.poetry.scripts]
 brain-even = "brain_games.scripts.brain_even:main"
 brain-calc = "brain_games.scripts.brain_calc:main"
+brain-gcd = "brain_games.scripts.brain_gcd:main"
 
 [tool.poetry.dependencies]
 python = "^3.8"

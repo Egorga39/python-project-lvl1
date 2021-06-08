@@ -44,11 +44,3 @@ def check_calc():
         n += check_answer(answer, right_answer, name)
         if n == 3:
             return print('Congratulations, {}!'.format(name))
-
-
-def main():
-    check_calc()
-
-
-if __name__ == '__main__':
-    main()
