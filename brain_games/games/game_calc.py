@@ -26,9 +26,9 @@ def check_answer(answer, right_answer, name):
         print('Correct!')
         return 1
     else:
-        print('"{}" is wrong answer ;(.'.format(answer),
-              'Correct answer was "{}".'.format(right_answer),
-              'Let\'s try again, {}!'.format(name))
+        print("'{}' is wrong answer ;(.".format(answer),
+              "Correct answer was '{}'.\n".format(right_answer),
+              "Let's try again, {}!".format(name))
         return 5
 
 
