@@ -22,8 +22,8 @@ def check_gsd():
     print('Find the greatest common divisor of given numbers.')
     n = 0
     while n < 3:
-        num_1 = random.randrange(100)
-        num_2 = random.randrange(100)
+        num_1 = random.randrange(1, 100)
+        num_2 = random.randrange(1, 100)
         right_answer = gcd(num_1, num_2)
         answer = int(input())
         n += check_answer(answer, right_answer, name)
