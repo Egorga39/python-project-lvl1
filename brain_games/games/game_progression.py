@@ -18,7 +18,7 @@ def progression():
 def question(p, i):
     right_answer = p[i]
     p[i] = '..'
-    print('Question: ', *p)
+    print('Question:', *p)
     return right_answer
 
 
