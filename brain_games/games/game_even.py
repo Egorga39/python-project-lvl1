@@ -2,8 +2,7 @@
 
 
 import random
-
-from brain_games.games.game_calc import check_answer, welcome_user
+from brain_games.games.module_game import check_answer, welcome_user
 
 
 def test_even(number):
