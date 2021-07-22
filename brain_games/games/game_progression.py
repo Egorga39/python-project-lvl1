@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
 
 import random
-from brain_games.games.module_game import check_answer, welcome_user
+
+
+question = 'What number is missing in the progression?'
 
 
 def progression():
@@ -15,22 +17,10 @@ def progression():
     return p
 
 
-def question(p, i):
+def test():
+    i = random.randrange(9)
+    p = progression()
     right_answer = p[i]
     p[i] = '..'
     print('Question:', *p)
-    return right_answer
-
-
-def check_progression():
-    name = welcome_user()
-    print('What number is missing in the progression?')
-    n = 0
-    while n < 3:
-        p = progression()
-        i = random.randrange(9)
-        right_answer = int(question(p, i))
-        answer = int(input())
-        n += check_answer(answer, right_answer, name)
-        if n == 3:
-            return print('Congratulations, {}!'.format(name))
+    return str(right_answer)

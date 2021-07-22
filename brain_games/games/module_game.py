@@ -10,12 +10,18 @@ def welcome_user():
     return name
 
 
-def check_answer(answer, right_answer, name):
-    if answer == right_answer:
-        print('Correct!')
-        return 1
-    else:
-        print("'{}' is wrong answer ;(.".format(answer),
-              "Correct answer was '{}'.\n".format(right_answer),
-              "Let's try again, {}!".format(name))
-        return 5
+def game(question, test):
+    name = welcome_user()
+    print(question)
+    n = 0
+    while n < 3:
+        right_answer = test()
+        answer = input()
+        if answer == right_answer:
+            n += 1
+            print('Correct!')
+        else:
+            return print("'{}' is wrong answer ;(.".format(answer),
+                         "Correct answer was '{}'.\n".format(right_answer),
+                         "Let's try again, {}!".format(name))
+    return print('Congratulations, {}!'.format(name))

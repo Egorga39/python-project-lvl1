@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
 
-import brain_games.games.game_gcd
+from brain_games.games.module_game import game
+from brain_games.games.game_gcd import question, test
 
 
 def main():
-    brain_games.games.game_gcd.check_gsd()
+    game(question, test)
 
 
 if __name__ == '__main__':
