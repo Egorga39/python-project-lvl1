@@ -8,7 +8,9 @@
 ![Github Actions](https://github.com/Egorga39/python-project-lvl1/actions/workflows/github-actions.yml/badge.svg)
 
 ###  Asciinema
-https://asciinema.org/a/46NHkVDFBFz9Y3EbHeq6HdAd0
-[![asciicast](https://asciinema.org/a/H6r9JTjyzwTpXO1zrRVn0GQ7m.svg)](https://asciinema.org/a/H6r9JTjyzwTpXO1zrRVn0GQ7m)
-[![asciicast](https://asciinema.org/a/TRO3DjAghohMZfCE3TdP9hcrf.svg)](https://asciinema.org/a/TRO3DjAghohMZfCE3TdP9hcrf)
-[![asciicast](https://asciinema.org/a/tvBC6soVKfPps7bJvhi8WHP1x.svg)](https://asciinema.org/a/tvBC6soVKfPps7bJvhi8WHP1x)
+[![asciicast](https://asciinema.org/a/8J2d63pgrW2PGbcEkosBdKjLL.svg)](https://asciinema.org/a/8J2d63pgrW2PGbcEkosBdKjLL)
+[![asciicast](https://asciinema.org/a/vWNiVLTirBYc9qGcrbIQ4vuU2.svg)](https://asciinema.org/a/vWNiVLTirBYc9qGcrbIQ4vuU2)
+[![asciicast](https://asciinema.org/a/29tBcIl5F8oxAIa6CMToLXyhi.svg)](https://asciinema.org/a/29tBcIl5F8oxAIa6CMToLXyhi)
+[![asciicast](https://asciinema.org/a/RKxgZPQnPcG3QuWjiXuc4ALrr.svg)](https://asciinema.org/a/RKxgZPQnPcG3QuWjiXuc4ALrr)
+[![asciicast](https://asciinema.org/a/ySLRE3QKSldjwXKIZ00V9VQCN.svg)](https://asciinema.org/a/ySLRE3QKSldjwXKIZ00V9VQCN)
+
